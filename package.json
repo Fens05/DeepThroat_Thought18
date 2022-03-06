@@ -1,6 +1,25 @@
 {
-  "dependencies": {
-    "express": "^4.17.3",
-    "mongoose": "^6.2.1"
-  }
+    "name": "DeepThroat_Thought18",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node server.js",
+        "watch": "nodemon server.js",
+        "seed": "node seeders/seeds.js",
+        "heroku-postbuild": "npm run seed"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^6.2.4"
+    },
+    "devDependencies": {
+        "@shelf/jest-mongodb": "^1.1.5",
+        "jest": "^25.3.0"
+    }
 }
