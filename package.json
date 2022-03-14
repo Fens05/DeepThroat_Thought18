@@ -1,25 +1,26 @@
 {
-    "name": "DeepThroat_Thought18",
-    "version": "1.0.0",
-    "private": true,
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "jest",
-        "start": "node server.js",
-        "watch": "nodemon server.js",
-        "seed": "node seeders/seeds.js",
-        "heroku-postbuild": "npm run seed"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.17.1",
-        "mongoose": "^6.2.4"
-    },
-    "devDependencies": {
-        "@shelf/jest-mongodb": "^1.1.5",
-        "jest": "^25.3.0"
-    }
+  "name": "deepthroat_thought18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fens05/DeepThroat_Thought18.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fens05/DeepThroat_Thought18/issues"
+  },
+  "homepage": "https://github.com/Fens05/DeepThroat_Thought18#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mogodb": "^0.0.1-security",
+    "mongoose": "^6.2.6",
+    "mongosh": "^1.2.3"
+  }
 }
